@@ -16,13 +16,14 @@ This Python script generates a random password based on the number of characters
 
 ## Customization
 You can customize the character set used for password generation by modifying the `characters` variable in the script. By default, it includes uppercase and lowercase letters, digits, and punctuation characters.
-
-```phyton
+`
 characters = string.ascii_letters + string.digits + string.punctuation
+`
 
 ## Example
 Here's an example of a random password generated using this script:
-```bash
+`
 Random Password: #Ab9%z$LqDp#W@o
+`
 
 Feel free to use and customize this script for your password generation needs.

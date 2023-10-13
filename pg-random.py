@@ -14,6 +14,6 @@ def generate_password(length):
 password_length = 15
 
 # Generate and display the random password (Generar y mostrar la contraseña aleatoria)
-for i in range(10):
-    random_password = generate_password(password_length)
-    print("Random Password:", random_password)
+
+random_password = generate_password(password_length)
+print("Random Password:", random_password)
